@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+    <script src="/script/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <div class="nav-main-left-img">
+          <img class="nav-logo-img" src="/images/pavanmg.png" alt="logo" />
+          <img class="icon-hamburger" src="/images/icons/hamburger.png" alt="hamburger" onclick="toggleMenu()" />
+        </div>
+
+        <div class="main-nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="techstack.html">Tech Stack</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div id="my-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="techstack.html">Tech Stack</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+
+          <button class="nav-dark-mode" onclick="myFunction()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+              <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+            </svg>
+          </button>
+        </div>
+        <div class="nav-main-right-img">
+          <img class="nav-icon" src="images/icons/github.png" alt="github" />
+          <img class="nav-icon" src="images/icons/twitter.png" alt="twitter" />
+          <img class="nav-icon" src="images/icons/in.png" alt="linkedin" />
+        </div>
+        <div class="nav-dark-mode-btn">
+          <button class="nav-dark-mode" onclick="myFunction()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+              <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="contact-section-main">
+        <div class="contact">
+          <h1 class="contact-title">For any questions please mail us:</h1>
+          <h1 class="contact-gradient">hi@pavanmg.in</h1>
+          <p class="contact-p">or</p>
+          <h1 class="contact-nummer">+91 12345 67890</h1>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-main">
+      <div class="footer-content">
+        <p>
+          Designed and built by
+          <span class="footer-gradient">Adrian</span>
+          with
+          <span class="footer-gradient">Love</span> &
+          <span class="footer-gradient">Coffee</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
